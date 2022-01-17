@@ -1,9 +1,10 @@
 var saveBtn = $(".saveBtn");
 
+// Sets the current day, will change as each new day starts 
 var todayDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(todayDate);
 
-
+// Time Block is colour coded to indicate whether it is past, present or future
 function timeBlockColor() {
     var hour = moment().hours();
 
@@ -20,6 +21,7 @@ function timeBlockColor() {
     })
 };
 
+// When you click the save button, saves it in local storage
 saveBtn.on("click", function() {
 
     var time = $(this).siblings(".hour").text();
@@ -28,6 +30,7 @@ saveBtn.on("click", function() {
     localStorage.setItem(time, plan);
 });
 
+// When page is refreshed, then shows saved local storage if any
 function usePlanner() {
 
     $(".hour").each(function() {
