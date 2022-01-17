@@ -17,7 +17,8 @@ Majority of this was provided and it was just up to us to work the rest out
 
 We had to give the user an option to save there date via a save button, these needed to still be present once the page was refreshed
 
-Overall I am still struggling with functions and the JavaScript side of things, but I feel the more I do it, the better I am becoming, just need to do more and more practice
+Overall I am still struggling with functions and the JavaScript side of things, but I feel the more I do it, the better I am becoming, just need to do more and more practice.
+I felt a lot more confident when doing this task.
 
 Please see my final work day schedular in the image below as well as my link to the website
 
